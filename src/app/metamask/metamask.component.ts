@@ -9,7 +9,6 @@ export class MetamaskComponent implements OnInit {
   web3Provider: any = null;
   ethereum: any = { };
   constructor() { }
-
   connectToMetaMask() {
     this.ethereum = window['ethereum'];
     if (typeof this.ethereum !== 'undefined') {
